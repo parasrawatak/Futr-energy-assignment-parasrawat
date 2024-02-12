@@ -1,0 +1,79 @@
+.hero{
+    background-image: url("../images//travel-banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .hero-title{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 70px;
+        font-weight:bold;
+        .t1{
+            margin-top: 50px;
+            color: #04c9ff;
+        }
+        .t2{
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+    .btn-main{
+        background-color: rgb(255, 85, 0);
+        border-radius: 20px;
+        border: none;
+        padding: 14px 35px;
+        color: white;
+    }
+    .hero-form{
+        width: 65%;
+        .form-title{
+          width:12%;
+          padding: 10px;
+          background-color: white;
+          color:#2f2fa5;
+          font-weight: bold;
+
+        }
+        .form-main{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: grey;
+            .form-col{
+                display: flex;
+                flex-direction: column;
+                .input-box{
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    height:20px;
+                    width:100%;
+                    padding: 5px;
+                    color: lightgray;
+                }
+                .input-box-h{
+                    visibility: hidden;
+                }
+            }
+            .form-search{
+                display: flex;
+                width: 30%;
+                align-items: center;
+                justify-content: center;
+            }
+            .btn-main2{
+                background-color: rgb(255, 85, 0);
+                border: none;
+                padding: 12px 30px;
+                color: white;
+                height: 50px;
+                width: 75%;
+            }
+        }
+    }
+}
