@@ -71,6 +71,7 @@
         padding: 12px 30px;
         color: white;
         margin: 5px;
+        cursor: pointer;
     }
     .travel-main{
         width: 65vw;
@@ -107,6 +108,29 @@
 .travel2{
     width: 65rem;
     margin: 20px 0px;
+    .cardholder{
+        display: flex;
+        margin: 20px 30px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            .card-title{
+                font-weight: bold;
+                padding: 5px;
+            }
+            .card-text{
+                font-weight: lighter;
+                padding: 5px;
+            }
+            .card-img{
+                width: 10rem;
+                padding: 5px;
+            }
+        }
+    }
 }
     .travel{
         width: 30%;

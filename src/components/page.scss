@@ -28,6 +28,7 @@
         border: none;
         padding: 14px 35px;
         color: white;
+        cursor: pointer;
     }
     .hero-form{
         width: 65%;
@@ -54,7 +55,18 @@
                     height:20px;
                     width:100%;
                     padding: 5px;
-                    color: lightgray;
+                    color: black;
+
+                    &.category-dropdown {
+                        height: 30px; 
+                        width: 180px;
+                        select {
+                          height: 100%;
+                        }
+                        option {
+                            height: 20px;                 
+                          }
+                      }    
                 }
                 .input-box-h{
                     visibility: hidden;
@@ -65,6 +77,7 @@
                 width: 30%;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
             }
             .btn-main2{
                 background-color: rgb(255, 85, 0);
@@ -73,6 +86,7 @@
                 color: white;
                 height: 50px;
                 width: 75%;
+                cursor: pointer;
             }
         }
     }
